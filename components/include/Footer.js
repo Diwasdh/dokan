@@ -3,7 +3,7 @@ import React from "react";
 export default function footer() {
   return (
     <div className="footer">
-      <p>&copy; Copyright Diwas Dhakal</p>
+      <p>&copy;Hello Copyright Diwas Dhakal</p>
     </div>
   );
 }

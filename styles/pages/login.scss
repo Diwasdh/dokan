@@ -1,0 +1,79 @@
+.Login_Wrapper {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.Login_Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60vh;
+    min-width: 30vw;
+    .Login_Header {
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #192638;
+    }
+    .Register_Header {
+        margin-bottom: 40px;
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #192638;
+        a {
+            text-decoration: none;
+            color: #1a63f4;
+        }
+    }
+}
+.Login_Container {
+    display: flex;
+    flex-direction: column;
+    .Signin_Button {
+        background: #f03e45;
+        border-radius: 8px;
+        border: none;
+        height: 44px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #fff;
+        max-width: 400px;
+    }
+    .ForgetPassword_Wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 400px;
+        margin-bottom: 35px;
+        ._checkbox {
+            display: flex;
+            align-items: center;
+            .CheckBox {
+                margin: 0 !important;
+                margin-right: 4px !important;
+                height: 20px !important;
+                width: 20px !important ;
+            }
+            label {
+                margin: 0;
+            }
+        }
+    }
+    .ForgetPassword_Link {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        color: #1a63f4;
+    }
+}

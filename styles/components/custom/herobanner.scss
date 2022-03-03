@@ -1,0 +1,35 @@
+.wrapper {
+    background: linear-gradient(
+        90.01deg,
+        #2086d4 0.01%,
+        #f65300 50%,
+        #f03e45 99.99%
+    );
+    box-shadow: 0px 1px 0px rgba(209, 209, 209, 0.12);
+    .py-5 {
+        padding-bottom: 0 !important;
+    }
+    h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 64px;
+        letter-spacing: -0.015em;
+        color: #000;
+    }
+    p {
+        color: #000;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .row {
+        --bs-gutter-x: 0;
+    }
+    .btn {
+        background: #000;
+        border: none;
+        border-radius: 60px;
+        color: #fff;
+    }
+}

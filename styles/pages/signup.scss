@@ -1,0 +1,64 @@
+.Signup_Wrapper {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    min-height: 60vh;
+}
+
+.Signup_Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .Login_Header {
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #3d3358;
+    }
+    .Register_Header {
+        max-width: 350px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #192638;
+        a {
+            text-decoration: none;
+            color: #1a63f4;
+        }
+    }
+}
+
+.Signup_Container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    .Name {
+        display: flex;
+        flex-direction: column;
+        margin-right: 5px;
+        width: 100%;
+    }
+    .Name_Container {
+        display: flex;
+        padding: 0;
+        max-width: 400px;
+        justify-content: space-between;
+    }
+
+    .Signin_Button {
+        background: #f03e45;
+        border-radius: 8px;
+        border: none;
+        height: 44px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #fff;
+        max-width: 400px;
+    }
+}
